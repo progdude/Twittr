@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6DEECFBBE7E36DF637C133AEE5BFEF1EFF84A06D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6DEECFBBE7E36DF637C133AEE5BFEF1EFF84A06D" : 0,
+    "35674CC05D9B4D99A4EA9B220027EFD2983A3979" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5786882F-845C-4B1E-8897-D820BF9F4EB1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6DEECFBBE7E36DF637C133AEE5BFEF1EFF84A06D" : "Twittr\/",
+    "35674CC05D9B4D99A4EA9B220027EFD2983A3979" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Twittr",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Twittr.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/progdude\/CodePath.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "35674CC05D9B4D99A4EA9B220027EFD2983A3979"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/progdude\/Twittr.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6DEECFBBE7E36DF637C133AEE5BFEF1EFF84A06D"
+    }
+  ]
+}
