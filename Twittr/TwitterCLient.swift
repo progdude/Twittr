@@ -25,6 +25,20 @@ class TwitterCLient: BDBOAuth1SessionManager {
         return Static.instance
     }
     
+    func load(params: NSDictionary?, completion: (tweets: [Tweet]?, error: NSError?) -> ()) {
+       
+        GET("1.1/statuses/home_timeline.json", parameters: params, success: { (operation: NSURLSessionDataTask, response: AnyObject?)  -> Void in
+            var tweets = Tweet.tweetswithArray(response as! [NSDictionary])
+            for tweet in tweets{
+                print(tweet.user?.name)
+            }
+            completion(tweets: tweets, error: nil)
+            }, failure: { (operation: NSURLSessionDataTask?, error: NSError) -> Void in
+                print(error);
+        })
+    }
+
+    
     func loginWithCompletion(completion: (user: User?, error: NSError?) -> ()) {
         loginCompletion = completion
         
@@ -57,6 +71,7 @@ class TwitterCLient: BDBOAuth1SessionManager {
                     self.loginCompletion?(user: nil, error: error)
                     
             })
+            
             
             TwitterCLient.sharedInstance.GET("1.1/statuses/home_timeline.json", parameters: nil, progress: nil, success: { (operation: NSURLSessionDataTask, response: AnyObject?) -> Void in
                 //                print("It worked!!!")
