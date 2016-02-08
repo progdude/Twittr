@@ -55,6 +55,10 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
         return cell
     }
     
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    
     
     
     /*
